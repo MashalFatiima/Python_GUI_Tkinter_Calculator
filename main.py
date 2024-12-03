@@ -36,6 +36,8 @@ def evaluate():
 def clear_field():
     global count 
     global calculation
+    global variable
+    variable = ""
     calculation = ''
     count = 0
     text_field.delete(1.0, 'end')
